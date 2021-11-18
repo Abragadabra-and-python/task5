@@ -3,7 +3,7 @@ def num(numbers):
 	return numbers
 
 
-print('Enter Enter numbers separated by a space')
+print('Enter numbers separated by a space')
 n = input('>>>')
 
 print(num(n))
