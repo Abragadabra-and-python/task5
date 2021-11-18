@@ -1,5 +1,9 @@
-print('Enter Enter numbers separated by a space')
-numbers = input('>>>')
+def num(numbers):
+	numbers = [int(i) for i in numbers.split(' ')]
+	return numbers
 
-numbers = [int(i) for i in numbers.split(' ')]
-print(numbers)
+
+print('Enter Enter numbers separated by a space')
+n = input('>>>')
+
+print(num(n))
